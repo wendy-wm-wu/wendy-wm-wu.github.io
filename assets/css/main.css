@@ -2308,7 +2308,6 @@ input, select, textarea {
 			display: inline-block;
 			padding: 0 1em 0 0;
 		}
-
 			ul.icons li:last-child {
 				padding-right: 0 !important;
 			}
@@ -2319,6 +2318,7 @@ input, select, textarea {
 
 			ul.icons.major li {
 				padding-right: 3.5em;
+				font-size: 4rem;
 			}
 
 				@media screen and (max-width: 736px) {
@@ -2328,6 +2328,12 @@ input, select, textarea {
 					}
 
 				}
+	.profile-pic {
+		width: 200px;
+		height: auto;
+		border-radius: 50%;
+	}
+
 
 /* Table */
 
